@@ -24,9 +24,9 @@ public class MainChatActivity extends AppCompatActivity {
 
 
         // Link the Views in the layout to the Java code
-        mInputText = (EditText) findViewById(R.id.messageInput);
-        mSendButton = (ImageButton) findViewById(R.id.sendButton);
-        mChatListView = (ListView) findViewById(R.id.chat_list_view);
+        mInputText = findViewById(R.id.messageInput);
+        mSendButton = findViewById(R.id.sendButton);
+        mChatListView = findViewById(R.id.chat_list_view);
 
         // TODO: Send the message when the "enter" button is pressed
 
