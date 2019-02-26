@@ -19,8 +19,8 @@ public class RegisterActivity extends AppCompatActivity {
 
     // TODO: Add member variables here:
     // UI references.
-    private AutoCompleteTextView mEmailView;
-    private AutoCompleteTextView mUsernameView;
+    private EditText mEmailView;
+    private EditText mUsernameView;
     private EditText mPasswordView;
     private EditText mConfirmPasswordView;
 
